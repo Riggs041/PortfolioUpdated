@@ -1,3 +1,5 @@
+console.log("JS IS LINKED")
+
 function linkedin() {
     window.open("https://www.linkedin.com/in/michael-riggs-041");
 }
@@ -13,3 +15,5 @@ function project1() {
 function project2() {
     window.open("https://scareadvisor.herokuapp.com/");
 }
+
+

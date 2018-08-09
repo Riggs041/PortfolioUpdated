@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
     <div class="bg">
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <a class="navbar-brand" style="color: whitesmoke">My Stuff</a>
@@ -38,62 +39,152 @@
                 </ul>
             </div>
         </nav>
-        <br>
-        <div class="background">
-            <div class="container">
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <br>
-                            <div class="profilePic">
-                                <img src="assets\images\Profile Pic.jpg" style="border-radius: 50%" height="200px" width="200px" class="responsive" alt="Mike Riggs">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" id="contact1hover">
+                        <div class="overlay">
+                            <div class="text">Contact Me:
+                                <br>
+                                <ul class="nav nav-pills flex-column">
+                                    <br>
+                                    <li class="nav-item">
+                                        <button class="btn btn-info" onclick="linkedin()">LinkedIn</button>
+                                    </li>
+                                    <br>
+                                    <li class="nav-item">
+                                        <button class="btn btn-info" onclick="github()">Github</button>
+                                    </li>
+                                    <br>
+                                    <li class="nav-item">
+                                        <button class="btn btn-info" onclick="email()">riggs041@gmail.com</button>
+                                    </li>
+                                </ul>
                             </div>
-
+                        </div>
+                        <br>
+                        <div class="profilePic">
+                            <img src="assets\images\Profile Pic.jpg" style="border-radius: 50%" height="200px" width="200px" class="responsive" alt="Mike Riggs">
                             <h3>Mike Riggs</h3>
-                            <p>University of Minnesota Coding Bootcamp</p>
-
-                            <h5>Get in Touch</h5>
-                            <p>Please visit my pages:</p>
-
-                            <ul class="nav nav-pills flex-column">
-                                <li class="nav-item">
-                                    <button class="btn btn-outline-info" onclick="linkedin()">LinkedIn</button>
-                                </li>
-                                <br>
-                                <li class="nav-item">
-                                    <button class="btn btn-outline-info" onclick="github()">Github</button>
-                                </li>
-                                <br>
-                            </ul>
+                            <p>University of Minnesota</p>
+                            <p>Coding Bootcamp</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-md-4">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="../PortfolioUpdated/assets/images/project1.PNG" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Music Magician App</h5>
-                                <p class="card-text">This is an application my team and I built using API's.</p>
-                                <a class="btn btn-primary" onclick="project1()">Check it out</a>
+
+                <div class="col-md-4">
+                    <div class="card" id="project1hover" style="width: 18rem;">
+                        <img class="card-img-top" src="../PortfolioUpdated/assets/images/project1.PNG" alt="Card image cap">
+                        <div class="overlay">
+                            <div class="text">Project 1
+
+                                <a class="btn btn-info" onclick="project1()">Check it out</a>
+
                             </div>
                         </div>
-                    </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Music Magician App</h5>
+                            <p class="card-text">This is an application my team and I built using API's.</p>
 
-                    <div class="col-md-4">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="../PortfolioUpdated/assets/images/project2.PNG" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Scare Advisor App</h5>
-                                <p class="card-text">This is a full stack application I helped build.</p>
-                                <a class="btn btn-primary" onclick="project2()">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card" id="project2hover" style="width: 18rem;">
+                        <img class="card-img-top" src="../PortfolioUpdated/assets/images/project2.PNG" alt="Card image cap">
+                        <div class="overlay">
+                            <div class="text">Project 2
+                                <a class="btn btn-info" onclick="project2()">Check it out</a>
                             </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Scare Advisor App</h5>
+                            <p class="card-text">This is a full stack application I helped build.</p>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
+
+
+
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-2 col-md-12 mb-4">
+                    <div class="view overlay2 z-depth-1-half">
+                        <img src="..\PortfolioUpdated\assets\images\HTML.PNG" class="img-fluid" alt="">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <div class="view overlay2 z-depth-1-half">
+                        <img src="..\PortfolioUpdated\assets\images\CSS.PNG" class="img-fluid" alt="">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="view overlay2 z-depth-1-half">
+                        <img src="..\PortfolioUpdated\assets\images\JS.PNG" class="img-fluid" alt="">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-12 mb-4">
+                    <div class="view overlay2 z-depth-1-half">
+                        <img src="..\PortfolioUpdated\assets\images\Mongo.PNG" class="img-fluid" alt="">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="view overlay2 z-depth-1-half">
+                        <img src="..\PortfolioUpdated\assets\images\node.PNG" class="img-fluid" alt="">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="view overlay2 z-depth-1-half">
+                        <img src="..\PortfolioUpdated\assets\images\react.PNG" class="img-fluid" alt="">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
 </body>
 
 </html>
